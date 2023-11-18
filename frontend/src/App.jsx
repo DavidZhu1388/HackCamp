@@ -3,7 +3,7 @@ import Project from "./Project";
 
 function App() {
 	return (
-		<>
+		<div>
 			<h1>Projects</h1>
 			<Project
 				title="Max's website"
@@ -13,7 +13,7 @@ function App() {
 				title="Wendy's website"
 				imageURL="https://www.designbombs.com/wp-content/uploads/2018/04/kuon-yagi.jpg"
 			></Project>
-		</>
+		</div>
 	);
 }
 
