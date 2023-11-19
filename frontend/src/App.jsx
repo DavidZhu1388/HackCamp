@@ -1,13 +1,14 @@
 import "./App.css";
 import Project from "./Project";
+//import EmployeeForm from "./EmployeeForm";
 
 function App() {
 	return (
 		<div>
-			<h1>Projects</h1>
+			<h1>Survey</h1>
 			<Project
 				title="Max's website"
-				imageURL="https://uploads.sitepoint.com/wp-content/uploads/2019/04/155530806117.jpg"
+				imageURL="https://cdn.pixabay.com/photo/2017/05/15/23/48/survey-2316468_1280.png"
 			></Project>
 			<Project
 				title="Wendy's website"
