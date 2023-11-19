@@ -6,8 +6,6 @@ function Project(props) {
 
 	return (
 		<div className="project-container">
-			<h3>{props.title}</h3>
-			{liked && <p>I like {props.title}</p>}
 			<img
 				src={props.imageURL}
 				alt={props.title}
@@ -15,6 +13,8 @@ function Project(props) {
 				style={{ width: "60vw" }}
 				onClick={() => setLiked(!liked)}
 			></img>
+			<h3>{props.title}</h3>
+			{liked && <p>I like {props.title}</p>}
 		</div>
 	);
 }
