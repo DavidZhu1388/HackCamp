@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Surveyify</title>
+
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <div id="top image and title">
+      <h1 class="name">Survey</h1>
+      <img height="200px" width="200px" class="toppicture" src="images/surveyphoto.png">
+        <img src="surveyphoto.png">
+    </div>
+
+    <form>
+
+    <h3>Sign in</h3>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+
+    </form>
+    <button type="button" onclick="alert('Input Registered')"> Input</button>
+
+    <button type="button" onclick="alert('Survey has ended')">End</button>
+
   </body>
 </html>
